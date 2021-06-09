@@ -1,4 +1,4 @@
-# KRSI LSM + BPF
+# KRSI = LSM + BPF
 
 ## Checking environment
 
