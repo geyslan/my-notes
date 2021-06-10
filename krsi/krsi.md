@@ -40,6 +40,13 @@ The `vmlinux.h` can then simply be included in the BPF programs without requirin
 ### Sample
 
 ```c
+#include "vmlinux.h"
+#include <bpf/bpf_helpers.h>
+#include <bpf/bpf_tracing.h>
+#include <errno.h>
+
+char _license[] SEC("license") = "GPL";
+
 /* @socket_bind:
  *      Check permission before socket protocol layer bind operation is
  *      performed and the socket @sock is bound to the address specified in the
