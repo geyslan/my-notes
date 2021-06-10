@@ -5,9 +5,11 @@
 Check if the running kernel supports `KRSI` (**LSM** and **BPF hooks**).
 
 ```bash
-❯ zgrep 'bpf\|BPF_LSM' /proc/config.gz 
+❯ zgrep 'bpf\|BPF_LSM\|DEBUG_INFO_BTF' /proc/config.gz
 CONFIG_BPF_LSM=y
 CONFIG_LSM="lockdown,yama,bpf"
+CONFIG_DEBUG_INFO_BTF=y
+CONFIG_DEBUG_INFO_BTF_MODULES=y
 ```
 
 ## Kernel files
