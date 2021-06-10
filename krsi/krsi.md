@@ -12,9 +12,9 @@ CONFIG_LSM="lockdown,yama,bpf"
 
 ## Kernel files
 
-These kernel headers contain LSM available hooks information:
+These kernel headers contain LSM hooks information:
 
-* `include/linux/lsm_hook_defs.h`  (hook declarations
+* `include/linux/lsm_hook_defs.h`  (hook declarations)
 * `include/linux/lsm_hooks.h`      (hook informations)
 
 The testing (sample) sources can be found in the `tools/testing/selftests/bpf` path.
