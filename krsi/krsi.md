@@ -110,6 +110,15 @@ and the program can be loaded by including `my_prog.skel.h` and using the genera
 ### References
 
 * [The Linux Kernel - BPF Documentation - LSM BPF Programs](https://www.kernel.org/doc/html/latest/bpf/bpf_lsm.html)
-* [LSM sample (kernelspace) - tools/testing/selftests/bpf/progs/lsm.c](https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/tools/testing/selftests/bpf/progs/lsm.c)
-* [LSM sample (userspace) - tools/testing/selftests/bpf/progs/lsm_prog.c](https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/tools/testing/selftests/bpf/prog_tests/test_lsm.c)
+* [LSM samples](https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/tools/testing/selftests/bpf/)
+  * kernelspace
+    * [tools/testing/selftests/bpf/progs/bprm_opts.c](https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/tools/testing/selftests/bpf/progs/bprm_opts.c)
+    * [tools/testing/selftests/bpf/progs/ima.c](https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/tools/testing/selftests/bpf/progs/ima.c)
+    * [tools/testing/selftests/bpf/progs/local_storage.c](https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/tools/testing/selftests/bpf/progs/local_storage.c)
+    * [tools/testing/selftests/bpf/progs/lsm.c](https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/tools/testing/selftests/bpf/progs/lsm.c)
+  * userspace
+    * [tools/testing/selftests/bpf/prog_tests/test_bprm_opts.c](https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/tools/testing/selftests/bpf/prog_tests/test_bprm_opts.c)
+    * [tools/testing/selftests/bpf/prog_tests/test_ima.c](https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/tools/testing/selftests/bpf/prog_tests/test_ima.c)
+    * [tools/testing/selftests/bpf/prog_tests/test_local_storage.c](https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/tools/testing/selftests/bpf/prog_tests/test_local_storage.c)    
+    * [tools/testing/selftests/bpf/prog_tests/lsm_prog.c](https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/tools/testing/selftests/bpf/prog_tests/test_lsm.c)
 * [Mitigating Attacks on a Supercomputer with KRSI - Billy Wilson](https://www.sans.org/reading-room/whitepapers/intrusion/mitigating-attacks-supercomputer-krsi-40010)
