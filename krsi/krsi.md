@@ -109,6 +109,7 @@ and the program can be loaded by including `my_prog.skel.h` and using the genera
 
 ### References
 
+* [Several BPF documentation files in the kernel](https://github.com/torvalds/linux/tree/master/Documentation/bpf)
 * [The Linux Kernel - BPF Documentation - LSM BPF Programs](https://www.kernel.org/doc/html/latest/bpf/bpf_lsm.html)
 * [LSM samples](https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/tools/testing/selftests/bpf/)
   * kernelspace
