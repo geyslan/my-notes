@@ -1,5 +1,7 @@
 # KRSI = LSM + BPF
 
+##### [README](../README.md) first.
+
 ## Checking environment
 
 Check if the running kernel supports `KRSI` (**LSM** and **BPF hooks**).
